@@ -11,10 +11,10 @@ const NewsBoard = ({category}) => {
   return (
     <div>
       <div>
-         <h1 className='font-medium mt-2 text-center text-xl '>Latest <span className='bg-red-600 text-white rounded p-0.5'>News</span></h1>
+         <h1 className='font-medium mt-6 text-center text-xl '>Latest <span className='bg-red-600 text-white rounded p-0.5'>News</span></h1>
       </div>
 
-      <div className='flex flex-wrap justify-center gap-6 p-6'>
+      <div className='flex flex-wrap justify-center gap-6 p-6 mt-4'>
           {/* API attributes:
           title
           description

@@ -7,8 +7,9 @@ function App() {
   const [category, setCategory] = useState("world");
   return (
    <div>
-    <Navbar setCategory={setCategory}/>
+    <Navbar setCategory={setCategory} category={category}/>
     <NewsBoard category={category}/>
+    
    </div>
   )
 }
