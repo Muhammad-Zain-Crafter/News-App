@@ -62,7 +62,7 @@ const Navbar = ({ setCategory, category }) => {
           {navItems.map((item) => (
             <li key={item.category}>
               <div
-                className={`cursor-pointer hover:text-gray-300 font-bold ${
+                className={`cursor-pointer hover:text-gray-300 font-semibold ${
                   category === item.category
                     ? "underline underline-offset-4"
                     : ""
@@ -82,7 +82,7 @@ const Navbar = ({ setCategory, category }) => {
           {navItems.map((item) => (
             <li key={item.category}>
               <div
-                className={`block px-4 py-2 cursor-pointer hover:bg-gray-700 font-bold ${
+                className={`block px-4 py-2 cursor-pointer hover:bg-gray-700 font-semibold ${
                   category === item.category
                     ? "underline underline-offset-4"
                     : ""
