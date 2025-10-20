@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './Components/Navbar'
-import NewsBoard from './Components/NewsBoard'
-import Footer from './Components/Footer'
+import { useState } from "react";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import NewsBoard from "./Components/NewsBoard";
+import Footer from "./Components/Footer";
 
 function App() {
-  const [category, setCategory] = useState("world")
+  const [category, setCategory] = useState("world");
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -15,7 +15,7 @@ function App() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
